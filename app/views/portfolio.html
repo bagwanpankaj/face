@@ -1,0 +1,46 @@
+<div class="page-header">
+  <h3>Portfolio</h3>
+  <span class="tagline">Open Source Projects</span>
+</div>
+<p>Here are the list of open source project I have been working on:</p>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th width="20%">Project Name</th>
+      <th width="60%">Description</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr ng-repeat="(key, value) in store.portfolio">
+      <th><a href={{store.author.github}}{{value.gsource}} target=_blank>{{value.title}}</a></th>
+      <td>{{value.description}}</td>
+      <td><a href={{store.author.github}}{{value.gsource}} target=_blank>Source</a></td>
+    </tr>
+  </tbody>
+</table>
+<div class="page-header">
+  <h3>Domain</h3>
+</div>
+<div class="jumbotron">
+  <p class="lead sublead" ng-repeat="(key, value) in store.domains">
+    {{value}}
+  </p>
+<!--         <div class="page-header">
+  <h3>Contact</h3>
+</div>
+<form action="http://formly007.herokuapp.com/api/v1/forms" method="POST" style="margin: 0 auto;">
+  <input type="hidden" name="api_key" value="6acd2a5d854b3d909684b00c09bec1b8"></input>
+  <div class="input-group">
+    <input type="text" class="form-control" placeholder="Email" name="form[email]"></input>
+  </div>
+  <div class="input-group">
+    <input type="text" class="form-control" placeholder="Name" name="form[name]"></input>
+  </div>
+  <div class="input-group">
+    <textarea rows="4" cols="20" class="form-control" placeholder="Query" name="form[query]"></textarea>
+  </div>
+  <div class="input-group">
+    <input type="submit" name="submit" value="Submit" class="btn btn-primary"></input>
+  </div>
+</form> -->
