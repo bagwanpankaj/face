@@ -19,8 +19,8 @@ angular.module('faceApp')
       linkedin: 'http://www.linkedin.com/in/bagwanpankaj'
     };
     $scope.store.copyright = '2009-2016';
-    $scope.store.tagline = 'Technology Evangelist | Data Scientist | Certified Ethical Hacker® | Certified ScrumMaster® | OpenSource Author/Contributor | Karmayogi';
-    $scope.store.brief = 'A Computer Scientist by heart, and open source author/contributor. Advocates Karma. Love working with cutting edge, fascinating, open source technologies.';
+    $scope.store.tagline = 'Technologist | Data Scientist | Certified Ethical Hacker(CEH®) | Certified ScrumMaster(CSM®) | OpenSource Author/Contributor | Karmayogi';
+    $scope.store.brief = 'A Computer Scientist by heart, process enthusiast, and open source author/contributor/writer. Advocates Karma. Love working with cutting edge, fascinating, open source technologies.';
 
     $scope.store.portfolio = [
       { gsource: '/zipper', title: 'Zipper', description: 'A MultiService Url Shortener package using Golang' },
@@ -37,6 +37,7 @@ angular.module('faceApp')
       'e-Learning Solution',
       'Payroll Management Solution',
       'Content Management System (CMS)',
+      'Digital Marketing Platform (DMP)',
       'Enterprise Risk Management (ERM)',
       'Native and Hybrid Mobile Applications',
       'Enterprise Resource Planning (ERP)',
