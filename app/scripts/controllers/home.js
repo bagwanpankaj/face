@@ -18,7 +18,7 @@ angular.module('faceApp')
       gems: 'http://rubygems.org/profiles/bagwanpankaj',
       linkedin: 'http://www.linkedin.com/in/bagwanpankaj'
     };
-    $scope.store.copyright = '2009-2016';
+    $scope.store.copyright = '2009-2020';
     $scope.store.tagline = 'Technologist | Data Scientist | Certified Ethical Hacker(CEH®) | Certified ScrumMaster(CSM®) | OpenSource Author/Contributor | Karmayogi';
     $scope.store.brief = 'A Computer Scientist by heart, process enthusiast, and open source author/contributor/writer. Advocates Karma. Love working with cutting edge, fascinating, open source technologies.';
 
